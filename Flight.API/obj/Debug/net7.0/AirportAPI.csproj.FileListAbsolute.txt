@@ -1,0 +1,7 @@
+/Users/jz/Projects/AirportAPI/AirportAPI/obj/Debug/net7.0/AirportAPI.csproj.AssemblyReference.cache
+/Users/jz/Projects/AirportAPI/AirportAPI/obj/Debug/net7.0/AirportAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jz/Projects/AirportAPI/AirportAPI/obj/Debug/net7.0/AirportAPI.AssemblyInfoInputs.cache
+/Users/jz/Projects/AirportAPI/AirportAPI/obj/Debug/net7.0/AirportAPI.AssemblyInfo.cs
+/Users/jz/Projects/AirportAPI/AirportAPI/obj/Debug/net7.0/AirportAPI.csproj.CoreCompileInputs.cache
+/Users/jz/Projects/AirportAPI/AirportAPI/obj/Debug/net7.0/AirportAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/jz/Projects/AirportAPI/AirportAPI/obj/Debug/net7.0/AirportAPI.MvcApplicationPartsAssemblyInfo.cache

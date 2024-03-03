@@ -1,0 +1,14 @@
+/Users/jz/Projects/AirportAPI/Airport.DAL/bin/Debug/net7.0/Airport.DAL.deps.json
+/Users/jz/Projects/AirportAPI/Airport.DAL/bin/Debug/net7.0/Airport.DAL.runtimeconfig.json
+/Users/jz/Projects/AirportAPI/Airport.DAL/bin/Debug/net7.0/Airport.DAL.dll
+/Users/jz/Projects/AirportAPI/Airport.DAL/bin/Debug/net7.0/Airport.DAL.pdb
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/Airport.DAL.csproj.AssemblyReference.cache
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/Airport.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/Airport.DAL.AssemblyInfoInputs.cache
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/Airport.DAL.AssemblyInfo.cs
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/Airport.DAL.csproj.CoreCompileInputs.cache
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/Airport.DAL.dll
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/refint/Airport.DAL.dll
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/Airport.DAL.pdb
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/Airport.DAL.genruntimeconfig.cache
+/Users/jz/Projects/AirportAPI/Airport.DAL/obj/Debug/net7.0/ref/Airport.DAL.dll

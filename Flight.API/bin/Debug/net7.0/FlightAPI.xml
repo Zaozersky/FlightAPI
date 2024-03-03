@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlightAPI</name>
+    </assembly>
+    <members>
+        <member name="T:FlightAPI.Common.QueryParameters">
+            <summary>
+            Represents query parameters for filtering and sorting
+            </summary>
+        </member>
+        <member name="P:FlightAPI.Common.QueryParameters.Filter">
+            <summary>
+            String for filtering flights by date, price, number of transfers, airline
+            </summary>
+        </member>
+        <member name="P:FlightAPI.Common.QueryParameters.Order">
+            <summary>
+            String for sorting flights
+            </summary>
+        </member>
+        <member name="M:FlightAPI.Controllers.FlightsController.#ctor(FlightAPI.Services.IAggregatedFlightService,Microsoft.Extensions.Logging.ILogger{FlightAPI.Controllers.FlightsController})">
+            <summary>
+            .ctor
+            </summary>
+        </member>
+        <member name="M:FlightAPI.Controllers.FlightsController.Get(FlightAPI.Common.QueryParameters,System.Threading.CancellationToken)">
+            <summary>
+            Receive flights
+            </summary>
+            <param name="query">query parameters (airline, date, price, etc)</param>
+            <param name="cancellationToken">cancellation token</param>
+            <returns>Flights data</returns>
+        </member>
+        <member name="M:FlightAPI.Controllers.FlightsController.BookFlight(FlightAPI.Models.FlightDto,System.Threading.CancellationToken)">
+             <summary>
+             Book the flight
+             </summary>
+             <remarks>
+             Request example:
+            
+                 PATCH api/Flights
+                 {
+                    "Id" : 1, 
+                    "NameAPI" : "AirportAPI"
+                 }
+             </remarks>
+             <param name="flight">flight data</param>
+             <param name="cancellationToken">cancellation token</param>
+        </member>
+        <member name="T:FlightAPI.Models.FlightDto">
+            <summary>
+            POCO for flight data
+            </summary>
+        </member>
+        <member name="P:FlightAPI.Models.FlightDto.Origin">
+            <summary>
+            Origin airport
+            </summary>
+        </member>
+        <member name="P:FlightAPI.Models.FlightDto.Destination">
+            <summary>
+            Destination airport
+            </summary>
+        </member>
+        <member name="P:FlightAPI.Models.FlightDto.Airline">
+            <summary>
+            Airline name
+            </summary>
+        </member>
+        <member name="P:FlightAPI.Models.FlightDto.FlightNumber">
+            <summary>
+            Flight number
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:FlightAPI.Models.FlightDto.DepartureDate" -->
+        <!-- Badly formed XML comment ignored for member "P:FlightAPI.Models.FlightDto.ArrivalDate" -->
+        <member name="P:FlightAPI.Models.FlightDto.Transfers">
+            <summary>
+            Transfers count
+            </summary>
+        </member>
+        <member name="P:FlightAPI.Models.FlightDto.Price">
+            <summary>
+            Ticket price
+            </summary>
+        </member>
+        <member name="M:FlightAPI.Services.AggregatedFlightService.#ctor(System.Net.Http.IHttpClientFactory,Microsoft.Extensions.Caching.Memory.IMemoryCache,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{FlightAPI.Services.AggregatedFlightService},Microsoft.Extensions.Options.IOptions{FlightAPI.Common.AppSettings})">
+            <summary>
+            .ctor
+            </summary>
+            <param name="memoryCache">memory cache</param>
+            <param name="logger">logger</param>
+            <param name="options">application settings</param>
+        </member>
+        <member name="M:FlightAPI.Services.AggregatedFlightService.GetFlights(FlightAPI.Common.QueryParameters,System.Threading.CancellationToken)">
+            <summary>
+            Receive flights 
+            </summary>
+            <param name="query">query parameters (date, price, airline, etc)</param>
+            <param name="cancellationToken">cancellation token</param>
+            <returns>Flight data</returns>
+        </member>
+    </members>
+</doc>
