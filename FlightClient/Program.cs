@@ -15,7 +15,7 @@ class Program
 
         IConfiguration config = builder.Build();
 
-        FlightAPI_Address = config.GetSection("Flight_Api_Address").Get<string>();
+        FlightAPI_Address = config.GetSection("FlightApi_Address").Get<string>();
 
         bool isQuit = false;
 
