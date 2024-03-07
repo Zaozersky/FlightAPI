@@ -9,7 +9,7 @@ using Moq;
 using Moq.Protected;
 using Newtonsoft.Json;
 
-namespace Airport.Tests
+namespace FlightAPI.Tests
 {
     [TestFixture]
     public class AggregatedFlightServiceTests

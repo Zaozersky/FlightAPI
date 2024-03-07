@@ -624,11 +624,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jz/Projects/AirportAPI/FlightClient/FlightClient.csproj",
-      "projectName": "FlightClient",
-      "projectPath": "/Users/jz/Projects/AirportAPI/FlightClient/FlightClient.csproj",
+      "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightAPI.Client.csproj",
+      "projectName": "FlightAPI.Client",
+      "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightAPI.Client.csproj",
       "packagesPath": "/Users/jz/.nuget/packages/",
-      "outputPath": "/Users/jz/Projects/AirportAPI/FlightClient/obj/",
+      "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jz/.nuget/NuGet/NuGet.Config"

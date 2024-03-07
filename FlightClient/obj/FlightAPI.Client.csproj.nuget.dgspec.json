@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightClient.csproj": {}
+    "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightAPI.Client.csproj": {}
   },
   "projects": {
-    "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightClient.csproj": {
+    "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightAPI.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightClient.csproj",
-        "projectName": "FlightClient",
-        "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightClient.csproj",
+        "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightAPI.Client.csproj",
+        "projectName": "FlightAPI.Client",
+        "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightAPI.Client.csproj",
         "packagesPath": "/Users/jz/.nuget/packages/",
         "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/obj/",
         "projectStyle": "PackageReference",

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportAPI", "AirportAPI\Ai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport.DAL", "Airport.DAL\Airport.DAL.csproj", "{5EB0BE22-FDD3-4A4D-ACF5-4B3607AFA47F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport.Tests", "Airport.Tests\Airport.Tests.csproj", "{E9D6D03A-4C84-458D-A960-C37B18C1B925}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightAPI.Tests", "Airport.Tests\FlightAPI.Tests.csproj", "{E9D6D03A-4C84-458D-A960-C37B18C1B925}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightAPI", "Flight.API\FlightAPI.csproj", "{1A2F9589-9D3C-4E2F-A287-B51B241DC6F3}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AviasalesAPI", "AviasalesAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aviasales.DAL", "Aviasales.DAL\Aviasales.DAL.csproj", "{E6C0CF1E-CF50-4E6F-B4DA-82D8B6F071B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightClient", "FlightClient\FlightClient.csproj", "{A462E450-B2B9-491A-B4DB-2601CD3837EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightAPI.Client", "FlightClient\FlightAPI.Client.csproj", "{A462E450-B2B9-491A-B4DB-2601CD3837EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

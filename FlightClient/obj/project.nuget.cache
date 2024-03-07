@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xx7B86yn/5kMobMFQ7KJT5cjG6TyQCab9RMcV5QpLVEXGSPStZq5YX36j5n89LsvmXaJbGv6B034bLoCBfrJYg==",
+  "dgSpecHash": "b2EZHbfS9P8BlXOCX/0nZBTqJzIB5garCzxajl9gG838HDmVXj+I3WBL92vT92efAZ5ZPgGM0LgyKmHeVNlV8g==",
   "success": true,
-  "projectFilePath": "/Users/jz/Projects/AirportAPI/FlightClient/FlightClient.csproj",
+  "projectFilePath": "/Users/jz/Projects/FlightAPI/FlightAPI/FlightClient/FlightAPI.Client.csproj",
   "expectedPackageFiles": [
     "/Users/jz/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/jz/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

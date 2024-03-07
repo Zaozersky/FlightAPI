@@ -1804,9 +1804,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/Airport.Tests.csproj",
-      "projectName": "Airport.Tests",
-      "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/Airport.Tests.csproj",
+      "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/FlightAPI.Tests.csproj",
+      "projectName": "FlightAPI.Tests",
+      "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/FlightAPI.Tests.csproj",
       "packagesPath": "/Users/jz/.nuget/packages/",
       "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/obj/",
       "projectStyle": "PackageReference",

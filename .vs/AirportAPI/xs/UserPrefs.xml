@@ -5,7 +5,7 @@
         <StartupItem ItemId="{4B162792-D1E2-4F27-BC02-4758798B6083}" ItemName="AirportAPI" ConfigurationId="https" />
         <StartupItem ItemId="{4FD6E9C9-E624-4C33-9AEE-8BF1BB3E9D18}" ItemName="AviasalesAPI" ConfigurationId="https" />
         <StartupItem ItemId="{1A2F9589-9D3C-4E2F-A287-B51B241DC6F3}" ItemName="FlightAPI" ConfigurationId="Default" />
-        <StartupItem ItemId="{A462E450-B2B9-491A-B4DB-2601CD3837EE}" ItemName="FlightClient" ConfigurationId="Default" />
+        <StartupItem ItemId="{A462E450-B2B9-491A-B4DB-2601CD3837EE}" ItemName="FlightAPI.Client" ConfigurationId="Default" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
@@ -46,10 +46,10 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.FlightAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.AirportAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.FlightAPI.Client PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.AviasalesAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.FlightClient PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/Controllers/FlightsController.cs" relfile="Flight.API/Controllers/FlightsController.cs" line="21" column="1" />
