@@ -714,11 +714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jz/Projects/AirportAPI/Flight.API/FlightAPI.csproj",
+      "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/FlightAPI.csproj",
       "projectName": "FlightAPI",
-      "projectPath": "/Users/jz/Projects/AirportAPI/Flight.API/FlightAPI.csproj",
+      "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/FlightAPI.csproj",
       "packagesPath": "/Users/jz/.nuget/packages/",
-      "outputPath": "/Users/jz/Projects/AirportAPI/Flight.API/obj/",
+      "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jz/.nuget/NuGet/NuGet.Config"

@@ -1032,11 +1032,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jz/Projects/AirportAPI/Aviasales.DAL/Aviasales.DAL.csproj",
+      "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/Aviasales.DAL.csproj",
       "projectName": "Aviasales.DAL",
-      "projectPath": "/Users/jz/Projects/AirportAPI/Aviasales.DAL/Aviasales.DAL.csproj",
+      "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/Aviasales.DAL.csproj",
       "packagesPath": "/Users/jz/.nuget/packages/",
-      "outputPath": "/Users/jz/Projects/AirportAPI/Aviasales.DAL/obj/",
+      "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jz/.nuget/NuGet/NuGet.Config"

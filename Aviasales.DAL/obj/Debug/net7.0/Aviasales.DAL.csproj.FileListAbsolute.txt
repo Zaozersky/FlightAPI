@@ -12,3 +12,17 @@
 /Users/jz/Projects/AirportAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.pdb
 /Users/jz/Projects/AirportAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.genruntimeconfig.cache
 /Users/jz/Projects/AirportAPI/Aviasales.DAL/obj/Debug/net7.0/ref/Aviasales.DAL.dll
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/bin/Debug/net7.0/Aviasales.DAL.deps.json
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/bin/Debug/net7.0/Aviasales.DAL.runtimeconfig.json
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/bin/Debug/net7.0/Aviasales.DAL.dll
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/bin/Debug/net7.0/Aviasales.DAL.pdb
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.csproj.AssemblyReference.cache
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.AssemblyInfoInputs.cache
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.AssemblyInfo.cs
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.csproj.CoreCompileInputs.cache
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.dll
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/refint/Aviasales.DAL.dll
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.pdb
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/Aviasales.DAL.genruntimeconfig.cache
+/Users/jz/Projects/FlightAPI/FlightAPI/Aviasales.DAL/obj/Debug/net7.0/ref/Aviasales.DAL.dll

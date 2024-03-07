@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jz/Projects/AirportAPI/Airport.Tests/Airport.Tests.csproj": {}
+    "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/Airport.Tests.csproj": {}
   },
   "projects": {
-    "/Users/jz/Projects/AirportAPI/Airport.Tests/Airport.Tests.csproj": {
+    "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/Airport.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jz/Projects/AirportAPI/Airport.Tests/Airport.Tests.csproj",
+        "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/Airport.Tests.csproj",
         "projectName": "Airport.Tests",
-        "projectPath": "/Users/jz/Projects/AirportAPI/Airport.Tests/Airport.Tests.csproj",
+        "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/Airport.Tests.csproj",
         "packagesPath": "/Users/jz/.nuget/packages/",
-        "outputPath": "/Users/jz/Projects/AirportAPI/Airport.Tests/obj/",
+        "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jz/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/jz/Projects/AirportAPI/Flight.API/FlightAPI.csproj": {
-                "projectPath": "/Users/jz/Projects/AirportAPI/Flight.API/FlightAPI.csproj"
+              "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/FlightAPI.csproj": {
+                "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/FlightAPI.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "/Users/jz/Projects/AirportAPI/Flight.API/FlightAPI.csproj": {
+    "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/FlightAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jz/Projects/AirportAPI/Flight.API/FlightAPI.csproj",
+        "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/FlightAPI.csproj",
         "projectName": "FlightAPI",
-        "projectPath": "/Users/jz/Projects/AirportAPI/Flight.API/FlightAPI.csproj",
+        "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/FlightAPI.csproj",
         "packagesPath": "/Users/jz/.nuget/packages/",
-        "outputPath": "/Users/jz/Projects/AirportAPI/Flight.API/obj/",
+        "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jz/.nuget/NuGet/NuGet.Config"

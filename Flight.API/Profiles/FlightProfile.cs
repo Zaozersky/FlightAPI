@@ -10,7 +10,7 @@ namespace FlightAPI.Profiles
             CreateMap<JsonFlight, FlightDto>()
                 .ForMember(dest => dest.Origin,
                            opt => opt.MapFrom
-                           (src => !string.IsNullOrEmpty(src.airline) ? src.airline : src.airport_from))
+                           (src => !string.IsNullOrEmpty(src.origin) ? src.origin : src.airport_from))
                 .ForMember(dest => dest.Destination,
                            opt => opt.MapFrom
                            (src => !string.IsNullOrEmpty(src.destination) ? src.destination : src.airport_to))

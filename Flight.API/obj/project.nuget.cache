@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qW8wHgE7hQM67/OWpKORZjSyMbIXghy4vDDBEs+uz8dnGHLC3DeDdQVZYiSvv6yAuhQU8u86LB6uedyN48aNGQ==",
+  "dgSpecHash": "h4lPpGEwU7PdJYrzi69W8nLMSzBJAoLGWTH3K0SKpZutg4RcRAc6pYO8WwxlbdO/PDbs5nd4E5UCAS4kqhrR6g==",
   "success": true,
-  "projectFilePath": "/Users/jz/Projects/AirportAPI/Flight.API/FlightAPI.csproj",
+  "projectFilePath": "/Users/jz/Projects/FlightAPI/FlightAPI/Flight.API/FlightAPI.csproj",
   "expectedPackageFiles": [
     "/Users/jz/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/jz/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",

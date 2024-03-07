@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jz/Projects/AirportAPI/AirportAPI/AirportAPI.csproj": {}
+    "/Users/jz/Projects/FlightAPI/FlightAPI/AirportAPI/AirportAPI.csproj": {}
   },
   "projects": {
-    "/Users/jz/Projects/AirportAPI/Airport.DAL/Airport.DAL.csproj": {
+    "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/Airport.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jz/Projects/AirportAPI/Airport.DAL/Airport.DAL.csproj",
+        "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/Airport.DAL.csproj",
         "projectName": "Airport.DAL",
-        "projectPath": "/Users/jz/Projects/AirportAPI/Airport.DAL/Airport.DAL.csproj",
+        "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/Airport.DAL.csproj",
         "packagesPath": "/Users/jz/.nuget/packages/",
-        "outputPath": "/Users/jz/Projects/AirportAPI/Airport.DAL/obj/",
+        "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jz/.nuget/NuGet/NuGet.Config"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "/Users/jz/Projects/AirportAPI/AirportAPI/AirportAPI.csproj": {
+    "/Users/jz/Projects/FlightAPI/FlightAPI/AirportAPI/AirportAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jz/Projects/AirportAPI/AirportAPI/AirportAPI.csproj",
+        "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/AirportAPI/AirportAPI.csproj",
         "projectName": "AirportAPI",
-        "projectPath": "/Users/jz/Projects/AirportAPI/AirportAPI/AirportAPI.csproj",
+        "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/AirportAPI/AirportAPI.csproj",
         "packagesPath": "/Users/jz/.nuget/packages/",
-        "outputPath": "/Users/jz/Projects/AirportAPI/AirportAPI/obj/",
+        "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/AirportAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jz/.nuget/NuGet/NuGet.Config"
@@ -100,8 +100,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/jz/Projects/AirportAPI/Airport.DAL/Airport.DAL.csproj": {
-                "projectPath": "/Users/jz/Projects/AirportAPI/Airport.DAL/Airport.DAL.csproj"
+              "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/Airport.DAL.csproj": {
+                "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/Airport.DAL.csproj"
               }
             }
           }

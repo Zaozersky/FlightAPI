@@ -1032,11 +1032,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jz/Projects/AirportAPI/Airport.DAL/Airport.DAL.csproj",
+      "projectUniqueName": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/Airport.DAL.csproj",
       "projectName": "Airport.DAL",
-      "projectPath": "/Users/jz/Projects/AirportAPI/Airport.DAL/Airport.DAL.csproj",
+      "projectPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/Airport.DAL.csproj",
       "packagesPath": "/Users/jz/.nuget/packages/",
-      "outputPath": "/Users/jz/Projects/AirportAPI/Airport.DAL/obj/",
+      "outputPath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.DAL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jz/.nuget/NuGet/NuGet.Config"

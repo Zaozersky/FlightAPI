@@ -196,6 +196,8 @@ namespace FlightAPI.Services
                                 flights = flights.Where(s => s.Transfers == transfersCount);
                             }
                             break;
+                        default:
+                            throw new ArgumentException($"Bad filter's format in the query: {searchString}");
                     }
                 }
 
@@ -211,51 +213,61 @@ namespace FlightAPI.Services
         {
             _logger.LogInformation($"Sorting flights.");
 
-            switch (sortOrder)
+            if (!string.IsNullOrEmpty(sortOrder))
             {
-                case "destination":
-                    flights = flights.OrderBy(s => s.Destination);
-                    break;
-                case "destination_desc":
-                    flights = flights.OrderByDescending(s => s.Destination);
-                    break;
-                case "departureDate":
-                    flights = flights.OrderBy(s => s.DepartureDate);
-                    break;
-                case "departureDate_desc":
-                    flights = flights.OrderByDescending(s => s.DepartureDate);
-                    break;
-                case "arrivalDate":
-                    flights = flights.OrderBy(s => s.ArrivalDate);
-                    break;
-                case "arrivalDate_desc":
-                    flights = flights.OrderByDescending(s => s.ArrivalDate);
-                    break;
-                case "airline":
-                    flights = flights.OrderBy(s => s.Airline);
-                    break;
-                case "airline_desc":
-                    flights = flights.OrderByDescending(s => s.Airline);
-                    break;
-                case "price":
-                    flights = flights.OrderBy(s => s.Price);
-                    break;
-                case "price_desc":
-                    flights = flights.OrderByDescending(s => s.Price);
-                    break;
-                case "transfers":
-                    flights = flights.OrderBy(s => s.Transfers);
-                    break;
-                case "transfers_desc":
-                    flights = flights.OrderByDescending(s => s.Transfers);
-                    break;
-                case "origin_desc":
-                    flights = flights.OrderByDescending(s => s.Origin);
-                    break;
-                case "origin":
-                default:
-                    flights = flights.OrderBy(s => s.Origin);
-                    break;
+                switch (sortOrder)
+                {
+                    case "destination":
+                        flights = flights.OrderBy(s => s.Destination);
+                        break;
+                    case "destination_desc":
+                        flights = flights.OrderByDescending(s => s.Destination);
+                        break;
+                    case "departureDate":
+                        flights = flights.OrderBy(s => s.DepartureDate);
+                        break;
+                    case "departureDate_desc":
+                        flights = flights.OrderByDescending(s => s.DepartureDate);
+                        break;
+                    case "arrivalDate":
+                        flights = flights.OrderBy(s => s.ArrivalDate);
+                        break;
+                    case "arrivalDate_desc":
+                        flights = flights.OrderByDescending(s => s.ArrivalDate);
+                        break;
+                    case "airline":
+                        flights = flights.OrderBy(s => s.Airline);
+                        break;
+                    case "airline_desc":
+                        flights = flights.OrderByDescending(s => s.Airline);
+                        break;
+                    case "price":
+                        flights = flights.OrderBy(s => s.Price);
+                        break;
+                    case "price_desc":
+                        flights = flights.OrderByDescending(s => s.Price);
+                        break;
+                    case "transfers":
+                        flights = flights.OrderBy(s => s.Transfers);
+                        break;
+                    case "transfers_desc":
+                        flights = flights.OrderByDescending(s => s.Transfers);
+                        break;
+                    case "origin":
+                        flights = flights.OrderBy(s => s.Origin);
+                        break;
+                    case "origin_desc":
+                        flights = flights.OrderByDescending(s => s.Origin);
+                        break;
+                    case "flightNumber":
+                        flights = flights.OrderBy(s => s.FlightNumber);
+                        break;
+                    case "flightNumber_desc":
+                        flights = flights.OrderByDescending(s => s.FlightNumber);
+                        break;
+                    default:
+                        throw new ArgumentException($"Bad format in the query: {sortOrder}");
+                }
             }
         }
 

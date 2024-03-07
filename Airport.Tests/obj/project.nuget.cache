@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WzoYwNK3ry5vue/qChJOkoegnb2R/qM6+hc5SCvdPYC8yIOETbL2jnqBY3GlQDj2obbsOrPGwro/meKI3auzyA==",
+  "dgSpecHash": "HkTeyJm1ZJXIoDIm1R9E/A9ZrXD0q529B4AQciUrlCQLsLC6etVEwbjx3smDfZoJjAnYNNtGCy3zischeui1hg==",
   "success": true,
-  "projectFilePath": "/Users/jz/Projects/AirportAPI/Airport.Tests/Airport.Tests.csproj",
+  "projectFilePath": "/Users/jz/Projects/FlightAPI/FlightAPI/Airport.Tests/Airport.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/jz/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/jz/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
