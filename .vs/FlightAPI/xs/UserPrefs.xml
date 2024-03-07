@@ -1,49 +1,47 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <AuthorInfo Name="jz" Email="jz.quark@gmail.com" Copyright="" Company="" Trademark="" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlightAPI.Tests/AggregatedFlightServiceTests.cs">
+    <Files>
+      <File FileName="Airport.DAL/appsettings.json" Line="1" Column="1" />
+      <File FileName="Airport.DAL/Entities/Order.cs" />
+      <File FileName="AviasalesAPI/appsettings.json" />
+      <File FileName="AviasalesAPI/Properties/launchSettings.json" />
+      <File FileName="FlightAPI.Tests/AggregatedFlightServiceTests.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FlightAPI" expanded="True">
+            <Node name="Airport.DAL" expanded="True" />
+            <Node name="FlightAPI.Tests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.AviasalesAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <Debugger.DebugSourceFolders />
-  <MonoDevelop.Ide.ItemProperties.FlightAPI.Client PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
         <StartupItem ItemId="{4B162792-D1E2-4F27-BC02-4758798B6083}" ItemName="AirportAPI" ConfigurationId="https" />
         <StartupItem ItemId="{4FD6E9C9-E624-4C33-9AEE-8BF1BB3E9D18}" ItemName="AviasalesAPI" ConfigurationId="https" />
-        <StartupItem ItemId="{1A2F9589-9D3C-4E2F-A287-B51B241DC6F3}" ItemName="FlightAPI" ConfigurationId="Default" />
-        <StartupItem ItemId="{A462E450-B2B9-491A-B4DB-2601CD3837EE}" ItemName="FlightAPI.Client" ConfigurationId="Default" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="FlightClient/app.config">
-    <Files>
-      <File FileName="FlightClient/Program.cs" />
-      <File FileName="Airport.Tests/AggregatedFlightServiceTests.cs" />
-      <File FileName="Airport.DAL/appsettings.json" />
-      <File FileName="Airport.DAL/Entities/Order.cs" />
-      <File FileName="FlightClient/app.config" Line="2" Column="21" />
-      <File FileName="Flight.API/Program.cs" />
-      <File FileName="Flight.API/appsettings.json" />
-      <File FileName="Flight.API/Properties/launchSettings.json" />
-      <File FileName="Flight.API/Controllers/FlightsController.cs" />
-      <File FileName="AviasalesAPI/appsettings.json" />
-      <File FileName="AviasalesAPI/Properties/launchSettings.json" />
-      <File FileName="Flight.API/Services/AggregatedFlightSerivce.cs" />
-      <File FileName="Flight.API/Profiles/FlightProfile.cs" />
-      <File FileName="Airport.Tests/MappingProfile.cs" />
-      <File FileName="Airport.Tests/Usings.cs" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="FlightAPI" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.AirportAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.FlightAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <AuthorInfo Name="jz" Email="jz.quark@gmail.com" Copyright="" Company="" Trademark="" />
+  <DisabledProjects>
+    <String>Airport.Tests/FlightAPI.Tests.csproj</String>
+    <String>FlightClient/FlightAPI.Client.csproj</String>
+    <String>Flight.API/FlightAPI.csproj</String>
+  </DisabledProjects>
 </Properties>
